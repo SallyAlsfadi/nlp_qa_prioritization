@@ -1,0 +1,4 @@
+As a user, I want the system to respond quickly to my actions.
+As a developer, I want the system to be easy to maintain.
+As a tester, I want the application to be reliable and bug-free.
+As a security officer, I want the system to be protected against unauthorized access.

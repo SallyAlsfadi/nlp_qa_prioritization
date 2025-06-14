@@ -1,0 +1,11 @@
+{
+  "performance": ["respond quickly", "fast", "load time", "real-time"],
+  "maintainability": [
+    "easy to maintain",
+    "modular",
+    "refactorable",
+    "clean code"
+  ],
+  "reliability": ["bug-free", "error-free", "fault-tolerant", "crash-proof"],
+  "security": ["unauthorized access", "secure", "protected", "data breach"]
+}
