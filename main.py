@@ -27,3 +27,14 @@ if __name__ == "__main__":
     print("\n📊 Prioritized Quality Attributes (CFV):")
     for i, (attr, score) in enumerate(final_scores, 1):
         print(f"{i}. {attr.title()} (Score: {score:.2f})")
+
+from evaluation import evaluate_predictions, read_ground_truth
+
+# --- Evaluation ---
+ground_truth = read_ground_truth("data/ground_truth.json")
+precision, recall, f1 = evaluate_predictions(stories, quality_attributes, ground_truth)
+
+print(f"\n🔍 Evaluation:")
+print(f"Precision: {precision:.2f}")
+print(f"Recall:    {recall:.2f}")
+print(f"F1 Score:  {f1:.2f}")
